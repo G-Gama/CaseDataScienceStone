@@ -2,7 +2,7 @@
 
 This is the solution proposed to [Stone Case for Data Science Role](https://gist.github.com/caiotaniguchi/a4c5229445a0adcf4dcb91111ea63152). You just need to run archives sequentially and everything should work out. I've run everything on a SageMaker environment, using a ml.m5.4xlarge (64GB) machine, so, even though it is not at all a small machine, it is one that someone working in the fintech environment should have access to.
 
-The files contained in this project are the following:
+The project contains the following files:
 
 - relational_schema.png: What I could infer from the Relational Schema of the tables from what I've studied.
 - 01_DownloadFiles.ipynb: In this, I download the files mentioned in the case link, so I won't need to send them to git whenever I make a push.
